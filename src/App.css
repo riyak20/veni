@@ -1,0 +1,103 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+.wrapper {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+header {
+  text-align: center;
+  padding: 20px 0;
+  border-bottom: 1px solid #ddd;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: calc(100vh - 200px);
+}
+
+.dog-section {
+  text-align: center;
+}
+
+.dog-section h2 {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.dog-data {
+  margin-top: 20px;
+}
+
+.dog-data img {
+  max-width: 500px;
+  margin-bottom: 10px;
+}
+
+.dog-data ul {
+  list-style: none;
+  text-align: left;
+}
+
+.dog-data li {
+  margin-bottom: 5px;
+}
+
+html, body {
+  height: 100%;
+}
+
+body {
+  background-color: lightblue;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+  max-width: 800px;
+  padding: 20px;
+}
+
+img {
+  width: 300px;
+  height: 300px;
+  object-fit: cover;
+  margin-bottom: 20px;
+}
+
+.ban-section {
+  width: 200px;
+  margin-left: 20px;
+}
+
+.ban-section h2 {
+  margin-bottom: 10px;
+}
+
+.ban-section ul {
+  list-style: none;
+}
+
+.ban-section li {
+  background-color: lightcoral;
+  color: #fff;
+  padding: 5px 10px;
+  margin: 5px 0;
+  border-radius: 5px;
+}
