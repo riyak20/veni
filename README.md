@@ -4,7 +4,7 @@ Submitted by: **Riya Kabra**
 
 This web app: **This app fetches data through API calls and displays it. The type of data fetched can be filtered by the user.**
 
-Time spent: **5** hours spent in total
+Time spent: **4** hours spent in total
 
 ## Required Features
 
